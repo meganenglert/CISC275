@@ -19,7 +19,13 @@ I was poking around on all of the tabs for my repository on GitHub and came acro
 
 *Skills Practiced*: Git
 
+## Made My First Website - "HTML Notes"
 
+I found [html.com](https://html.com/) through Google and saw that they had a great page on some basic definitions and tags. My uncreative mind defaulted to using a [new HTML website](https://meganenglert.github.io/CISC275/first-website) to take notes on... HTML. I included an unordered list, a definition list, anchor tags, an image (a terrible picture of my guinea pig), a table, and some other tags that apply to text.
+
+*Reflection*: Honestly, HTML is way easier than I thought it would be. It was a bit overwhelming to see all the tags used in class, especially with their different attributes, but I actually had the time to digest how the tags work. In writing this reflection, I also found it way easier to talk about my experience now that I know the "tag"/"attribute" terminology. It also took me a bit to figure out where the link to the webpage would actually be in GitHub Pages, so I learned a bit about that too!
+
+*Skills Practiced*: Basics of the Web - HTML, Deploying with GitHub Pages
 
 # Change Log
 ## Milestone 1:
