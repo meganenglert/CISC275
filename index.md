@@ -31,5 +31,9 @@ I found [html.com](https://html.com/) through Google and saw that they had a gre
 ## Milestone 1:
 - Installed VS Code, Node, and TypeScript
 - Added a kanban board to my portfolio repository
+- Made my first website with HTML, called "HTML Notes"
 
 ## TODO
+- Try making some CSS changes on my HTML Notes website, including font color changes, background color changes, etc.
+- Learn how to make branches using Git (and what branches actually are). I might use this feature to modify my website.
+- Create a new website showcasing some cool features of BootStrap
