@@ -39,6 +39,11 @@ Some of the new topics taught in this course that were not in the html.com instr
 - How to use forms to get input from the user! This one is especially helpful for the website I'd like to make (see next portfolio item).
 
 Overall, I really enjoyed this tutorial because it taught conventions and style in addition to what will make the code compile. Coding with good organization in HTML not only helps your collaborators working on the backend, but, as this tutorial taught, it also adds to the accessbility of the final product. It's really interesting how there are some tags that aren't really visible on the resulting page but have such a big effect on those who need screenreaders.
+
+## Codecademy CSS Tutorial
+
+I'm currently about a third of the way through this tutorial. HTML took a bit longer than expected but was really helpful, and so far, CSS is really great too!
+
 ## WhatNow - the meat of this portfolio (hopefully)
 
 This week, I was aggressively scouring the internet to find task management/organization software with all of the functionalities I wanted, when I realized I could probably make it myself. 
@@ -55,11 +60,20 @@ For the sake of this portfolio, here is a summary of the planned features:
     - Custom user tag system for filtering tasks
     - Time field for each task that can be used for filtering or viewing the estimated time needed to complete all tasks in a tag
 
+
+## Big important note for Milestone 2 (please read me)
+NOTE: The UD School of Music is taking a required trip for all of its ensembles today, 9/16. We will be gone from 10am until roughly midnight. I plan to work on the bus but I may not have internet access to push. I will keep a running list of pseudo commit messages on the page. As soon as we get home, I will be pushing these changes, but it may be a bit after midnight. Please still consider these changes to be a part of this week's milestone.
+
 # Change Log
 ## Milestone 1:
 - Installed VS Code, Node, and TypeScript
 - Added a kanban board to my portfolio repository
 - Made my first website with HTML, called "HTML Notes"
+
+## Milestone 2:
+- Completed Codecademy HTML Tutorial
+- Began Codecademy CSS Tutorial - about 1/3 completed
+- Brainstormed features for the main web app I will be included in this portfolio
 
 # TODO
 ## Milestone 1:
@@ -68,4 +82,16 @@ For the sake of this portfolio, here is a summary of the planned features:
 - Create a new website showcasing some cool features of BootStrap
 
 ## Milestone 2:
-- 
+First off, I know that I am a bit behind right now. I've had some trouble getting settled this semester, but I am finally getting in the groove.
+
+I really enjoyed the Codecademy HTML tutorial, and they have lots of free web dev tutorials, so I'll be focusing attention on those:
+- Complete [Codecademy CSS tutorial](https://www.codecademy.com/learn/learn-css)
+- Complete [Codecademy TypeScript tutorial](https://www.codecademy.com/learn/learn-typescript)
+- Maybe not the whole thing since it's very long, but familarize myself with React using [Codecademy's tutorial](https://www.codecademy.com/learn/react-101)
+- [Codecademy Bootstrap tutorial](https://www.codecademy.com/learn/learn-bootstrap)
+
+Here are things related to my web app!
+- Learn to use Git branches to add new features while still showing how the website progressed
+- Using what I learned from the tutorial above, create some starter CSS to make the page look like an actual website to some degree
+- Using what I learned from the tutorial above, write some TypeScript to handle some of the more complex processes, such as selecting a random task and maintaining a list of all tasks
+- Using what I learned from the tutorial above, begin to look for some Bootstrap features to add to simplify my code and help the aesthetics of the page
