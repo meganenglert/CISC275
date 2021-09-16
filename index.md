@@ -26,6 +26,19 @@ I found [html.com](https://html.com/) through Google and saw that they had a gre
 
 *Skills Practiced*: Basics of the Web - HTML, Deploying with GitHub Pages
 
+## Codecademy HTML Tutorial
+
+![HTML Tutorial Badge](HTMLcomplete.png "HTML Tutorial Badge")
+
+This tutorial took much longer than I expected it to, but I think it was incredibly helpful in getting me more advanced in HTML.
+
+Some of the new topics taught in this course that were not in the html.com instructions I used before included:
+
+- How to logically divide my document into a `head`, `body`, and different `div`s.
+- More complex table options, including the `thead` and `tbody` tags to keep things organized and easier control style, `rowspan` and `colspan` to merge cells together, and `th` to add headings to rows and columns.
+- How to use forms to get input from the user! This one is especially helpful for the website I'd like to make (see next portfolio item).
+
+Overall, I really enjoyed this tutorial because it taught conventions and style in addition to what will make the code compile. Coding with good organization in HTML not only helps your collaborators working on the backend, but, as this tutorial taught, it also adds to the accessbility of the final product. It's really interesting how there are some tags that aren't really visible on the resulting page but have such a big effect on those who need screenreaders.
 ## WhatNow - the meat of this portfolio (hopefully)
 
 This week, I was aggressively scouring the internet to find task management/organization software with all of the functionalities I wanted, when I realized I could probably make it myself. 
