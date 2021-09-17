@@ -60,6 +60,18 @@ For the sake of this portfolio, here is a summary of the planned features:
     - Custom user tag system for filtering tasks
     - Time field for each task that can be used for filtering or viewing the estimated time needed to complete all tasks in a tag
 
+In its current state, [the main WhatNow page](https://meganenglert.github.io/WhatNow/) has the following:
+- Embedded audio!
+    - WARNING: It autoplays. At least it theoretically should. 
+    - It's from my favorite game ever, Rhythm Heaven Fever for Wii.
+- Form structure with several input fields
+    - Currently not actually connected to anything
+- Stylesheet is in progress! 
+    - I was literally learning CSS as I was going here, so I was mostly messing around with different tags to attempt to make something decent looking.
+    - There are still a few things I'm trying to figure out, like getting the label for my embedded audio to be nicely aligned.
+- Buttons link to my Portfolio and back to my Bus Ride Changelog of Chaos.
+    - I have made almost all of my progress on this HTML file on a 5 hour round trip bus ride to and from Selbyville, DE. I did not have internet and then obviously could not make commits. So instead, I made the [Bus Ride Changelog](https://meganenglert.github.io/WhatNow/changelog) to document my progress.
+
 
 ## Big important note for Milestone 2 (please read me)
 NOTE: The UD School of Music is taking a required trip for all of its ensembles today, 9/16. We will be gone from 10am until roughly midnight. I plan to work on the bus but I may not have internet access to push. I will keep a running list of pseudo commit messages on the page. As soon as we get home, I will be pushing these changes, but it may be a bit after midnight. Please still consider these changes to be a part of this week's milestone.
@@ -73,7 +85,8 @@ NOTE: The UD School of Music is taking a required trip for all of its ensembles 
 ## Milestone 2:
 - Completed Codecademy HTML Tutorial
 - Began Codecademy CSS Tutorial - about 1/3 completed
-- Brainstormed features for the main web app I will be included in this portfolio
+- Brainstormed features for WhatNow, my plan for a web app
+- Created some basic HTML and CSS for WhatNow homepage, including a form to add tasks, working buttons, and a changelog.
 
 # TODO
 ## Milestone 1:
@@ -92,6 +105,5 @@ I really enjoyed the Codecademy HTML tutorial, and they have lots of free web de
 
 Here are things related to my web app!
 - Learn to use Git branches to add new features while still showing how the website progressed
-- Using what I learned from the tutorial above, create some starter CSS to make the page look like an actual website to some degree
 - Using what I learned from the tutorial above, write some TypeScript to handle some of the more complex processes, such as selecting a random task and maintaining a list of all tasks
 - Using what I learned from the tutorial above, begin to look for some Bootstrap features to add to simplify my code and help the aesthetics of the page
