@@ -3,10 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { ControlPanel } from './components/ControlPanel'
-
+import { Container, Row } from 'react-boostrap';
 function App(): JSX.Element {
   return (
-    <div className="App">
+    <Container className="notes">
       IDEA: Functional components return JSX Elements
       import FILENAME from './address'
       json.stringify(FILENAME) allows you to view your json data as a string, is helpful for making sure that things loaded ok
@@ -18,7 +18,7 @@ function App(): JSX.Element {
 
       <ControlPanel></ControlPanel>
     
-    </div>
+    </Container>
   );
 }
 

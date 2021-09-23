@@ -1,5 +1,5 @@
-import { Button } from 'react-bootstrap';
+import { Button, Col } from 'react-bootstrap';
 
 export function ControlPanel(): JSX.Element {
-    return <Button>Control Panel</Button>
+    return <Col><Button>Control Panel</Button></Col>
 }
