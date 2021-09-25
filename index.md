@@ -76,6 +76,26 @@ In its current state, [the main WhatNow page](https://meganenglert.github.io/Wha
 ## Big important note for Milestone 2 (please read me)
 NOTE: The UD School of Music is taking a required trip for all of its ensembles today, 9/16. We will be gone from 10am until roughly midnight. I plan to work on the bus but I may not have internet access to push. I will keep a running list of pseudo commit messages on the page. As soon as we get home, I will be pushing these changes, but it may be a bit after midnight. Please still consider these changes to be a part of this week's milestone.
 
+## First attempt at React
+My first attempt at React went ... poorly. I wanted to try half-following Dr. Bart's tutorial while half doing my own thing, and it ended up breaking. I was also extremely tired while working on it so. That did not help the coherence of this project. 
+[See my horrically failed React attempt here!](https://github.com/meganenglert/CISC275/tree/master/myfirstreact)
+
+## TA Trainer! but make it... Jeopardy!
+
+After visiting Dr. Bart's office hours, I finally figured out what React even *was*, so I sat down and started from scratch, recreating his work with some of my own additions along the way. 
+
+I wanted to find a cool dataset of my own to put into the card prompt/reveal format, and I came across a [dataset with Jeopardy questions](https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/). For my purposes, the data needed a bit of cleaning - mainly converting question point values into numbers - so I used my super cool Python Pandas skills to clean it up, take only a chunk of questions, and export it as a CSV, which I then converted to JSON online. [You can see my exported Jupyter Notebook with my Pandas work here!](https://meganenglert.github.io/CISC275/jeopardy_data_manipulation)
+
+After probably 6 hours of just trying to get through the video while actually understanding everything, I had implemented all the features shown off in the video. I also added an option to record the Category title of custom questions. Within the next week, I'd like to add these features:
+- Scoreboard with editable points for each team
+- Better question display styling - maybe attempt to make it look like actually Jeopardy question cards?
+- Random question selection by round - only round1 cards appear in round1, round2 in round2, etc.
+- Wagering system for final Jeopardy
+
+I tried and failed to deploy it with GitHub pages, so that's something I'm adding to the docket for next week. I tried to use [the page linked on Canvas](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f), but some funky things happened that I did not have the time to deal with for this milestone. [View my repository here!](https://github.com/meganenglert/ta-trainer-practice)
+
+
+
 # Change Log
 ## Milestone 1:
 - Installed VS Code, Node, and TypeScript
@@ -87,6 +107,11 @@ NOTE: The UD School of Music is taking a required trip for all of its ensembles 
 - Began Codecademy CSS Tutorial - about 1/3 completed
 - Brainstormed features for WhatNow, my plan for a web app
 - Created some basic HTML and CSS for WhatNow homepage, including a form to add tasks, working buttons, and a changelog.
+
+## Milestone 3: 
+- Tried (and failed) React for the first time
+- Followed along with Dr. Bart's TA trainer tutorial, switching out the CSV for Jeopardy questions
+- Attempted to branch repository and deploy React app to GitHub pages (a fail)
 
 # TODO
 ## Milestone 1:
@@ -107,3 +132,10 @@ Here are things related to my web app!
 - Learn to use Git branches to add new features while still showing how the website progressed
 - Using what I learned from the tutorial above, write some TypeScript to handle some of the more complex processes, such as selecting a random task and maintaining a list of all tasks
 - Using what I learned from the tutorial above, begin to look for some Bootstrap features to add to simplify my code and help the aesthetics of the page
+
+## Milestone 3:
+- Debug deploying React apps on GitHub pages, get Jeopardy up on its own page
+- Add previously described features to Jeopardy: scoreboard, question styling, round filtering, and wagering system
+- Fork my Jeopardy repository and begin to modify it with some features not shown in Dr. Bart's video - such as drop down menus and more Bootstrap elements
+- Improve my skills with unit testing using the completed TA trainer repository that Dr. Bart provided - aim for 100% code coverage
+
