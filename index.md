@@ -94,6 +94,23 @@ After probably 6 hours of just trying to get through the video while actually un
 
 I tried and failed to deploy it with GitHub pages, so that's something I'm adding to the docket for next week. I tried to use [the page linked on Canvas](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f), but some funky things happened that I did not have the time to deal with for this milestone. [View my repository here!](https://github.com/meganenglert/ta-trainer-practice)
 
+## Jeopardy - the Final Submission
+
+This week, I further modified the TA trainer tutorial base to better work with my Jeopardy game. 
+
+All of the work I did involved adding new branches and merging them back to the main branch once the feature I am creating on that branch is functional. This was the first time I used to Git branching, and it was incredibly helpful. It was nice to know that a functional version of my project was still preserved before I went messing with things.
+
+My first modification was adding a scoreboard. Initially, I made a score card with buttons and a counter for only one team. The counter only incremented/decremented by 1 at a time at first, but then I passed the point value of the active question into the control panel (where the scoreboard originally lived). I ended up figuring out how to make a card group with a varying number of cards based on the number of teams in the team list. 
+
+I then added the button to show/hide the Add Time input box. When a new team name is put in the box, it adds a team with 0 starting points to the team list and refreshes the scorecard display.
+
+After realizing that the user list was being used for literally nothing, I decided to remove it and move all the pieces of the team system into the control panel. During this process, I ended up realizing that there was no reason to process the starting team list in the main App file. It was a whole lot of annoying passing of things that didn't need to be passed. It took a while to work through all of the errors, but it was definitely worth it to make everything much more legible and organized.
+
+Then, I implemented some CSS to make the page less... sterile looking. It was a bit challenging to work out styling the Bootstrap elements, but I ended up using a combination of rules in the CSS file and attributes within elements.
+
+The features I added and modified gave me a much better understanding of what different elements in Dr. Bart's video did and how they worked. I also tried to use the Bootstrap website to find some new features to implements.
+
+[My repository is still here!](https://github.com/meganenglert/ta-trainer-practice) [See the app here!!](https://meganenglert.github.io/ta-trainer-practice)
 
 
 # Change Log
@@ -112,6 +129,12 @@ I tried and failed to deploy it with GitHub pages, so that's something I'm addin
 - Tried (and failed) React for the first time
 - Followed along with Dr. Bart's TA trainer tutorial, switching out the CSV for Jeopardy questions
 - Attempted to branch repository and deploy React app to GitHub pages (a fail)
+
+## Final Submission:
+- Finally figured out how to deploy to GitHub pages (my homepage was wrong oops)
+- Figured out how to actually use Git branching to organize my changing features
+- Modified TA trainer app to have teams and score cards for Jeopardy
+- Added CSS to make the Jeopardy page look a bit less basic!
 
 # TODO
 ## Milestone 1:
@@ -139,3 +162,5 @@ Here are things related to my web app!
 - Fork my Jeopardy repository and begin to modify it with some features not shown in Dr. Bart's video - such as drop down menus and more Bootstrap elements
 - Improve my skills with unit testing using the completed TA trainer repository that Dr. Bart provided - aim for 100% code coverage
 
+## Final Submission:
+- I'd really like to get my task management app working and deployed within the next few weeks! I'm planning to create that from scratch.
